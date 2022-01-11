@@ -14,8 +14,11 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'development'),
+      directory: path.join(__dirname, 'docs'),
     },
+  },
+  entry: {
+    app: './src/docs.js'
   },
   output: {
     path: path.resolve(__dirname, 'docs'),

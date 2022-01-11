@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvue_product_zoomer=self.webpackChunkvue_product_zoomer||[]).push([[316],{35:(e,u,r)=>{var o=r(963),s=r(636),p=r.n(s),t=r(836);const c=(0,o.ri)(t.Z);c.use(p()),c.mount("#app")}},e=>{e.O(0,[237,203,262,252,963,605,212,788,220,33,460,38,948,706],(()=>{return u=35,e(e.s=u);var u}));e.O()}]);

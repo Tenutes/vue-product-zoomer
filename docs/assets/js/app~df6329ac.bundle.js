@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvue_product_zoomer=self.webpackChunkvue_product_zoomer||[]).push([[220],{101:(e,u,c)=>{c.d(u,{Z:()=>d});const d=c.p+"fa781a524b7e118a3a3d3de8d4e66d5c.png"}}]);

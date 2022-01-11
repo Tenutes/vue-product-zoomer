@@ -1,0 +1,199 @@
+/*! !../../node_modules/css-loader/dist/cjs.js??ref--2-1!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/vue-loader/lib??vue-loader-options!./ProductZoomer.vue?vue&type=style&index=0&lang=css& */
+
+/*! !../../node_modules/css-loader/dist/cjs.js??ref--2-1!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/vue-loader/lib??vue-loader-options!./ProductZoomer.vue?vue&type=style&index=1&id=033bd07e&scoped=true&lang=css& */
+
+/*! -!../../node_modules/babel-loader/lib??ref--1!../../node_modules/vue-loader/lib??vue-loader-options!./ProductZoomer.vue?vue&type=script&lang=js& */
+
+/*! -!../../node_modules/css-loader/dist/cjs.js??ref--2-1!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../assets/drift-zoom/src/css/drift-basic.css */
+
+/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./ProductZoomer.vue?vue&type=template&id=033bd07e&scoped=true& */
+
+/*! -!../../node_modules/vue-style-loader!../../node_modules/css-loader/dist/cjs.js??ref--2-1!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/vue-loader/lib??vue-loader-options!./ProductZoomer.vue?vue&type=style&index=0&lang=css& */
+
+/*! -!../../node_modules/vue-style-loader!../../node_modules/css-loader/dist/cjs.js??ref--2-1!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/vue-loader/lib??vue-loader-options!./ProductZoomer.vue?vue&type=style&index=1&id=033bd07e&scoped=true&lang=css& */
+
+/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../node_modules/css-loader/dist/runtime/api.js */
+
+/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */
+
+/*! ../../node_modules/vue-style-loader/lib/addStylesClient.js */
+
+/*! ../assets/drift-zoom/src/js/Drift.js */
+
+/*! ../assets/svg-icons/arrow-down-s-fill.svg */
+
+/*! ../assets/svg-icons/arrow-down-s-line.svg */
+
+/*! ../assets/svg-icons/arrow-left-s-fill.svg */
+
+/*! ../assets/svg-icons/arrow-left-s-line.svg */
+
+/*! ../assets/svg-icons/arrow-right-s-fill.svg */
+
+/*! ../assets/svg-icons/arrow-right-s-line.svg */
+
+/*! ../assets/svg-icons/arrow-up-s-fill.svg */
+
+/*! ../assets/svg-icons/arrow-up-s-line.svg */
+
+/*! ./BoundingBox */
+
+/*! ./ProductZoomer.vue?vue&type=script&lang=js& */
+
+/*! ./ProductZoomer.vue?vue&type=style&index=0&lang=css& */
+
+/*! ./ProductZoomer.vue?vue&type=style&index=1&id=033bd07e&scoped=true&lang=css& */
+
+/*! ./ProductZoomer.vue?vue&type=template&id=033bd07e&scoped=true& */
+
+/*! ./Trigger */
+
+/*! ./ZoomPane */
+
+/*! ./components/ProductZoomer */
+
+/*! ./injectBaseStylesheet */
+
+/*! ./listToStyles */
+
+/*! ./util/dom */
+
+/*! ./util/throwIfMissing */
+
+/*! exports provided: default */
+
+/*! exports provided: isDOMElement, addClasses, removeClasses */
+
+/*! exports provided: render, staticRenderFns */
+
+/*! no static exports found */
+
+/*!************************!*\
+  !*** ./src/publish.js ***!
+  \************************/
+
+/*!******************************************!*\
+  !*** ./src/components/ProductZoomer.vue ***!
+  \******************************************/
+
+/*!***********************************************!*\
+  !*** ./src/assets/drift-zoom/src/js/Drift.js ***!
+  \***********************************************/
+
+/*!*************************************************!*\
+  !*** ./src/assets/drift-zoom/src/js/Trigger.js ***!
+  \*************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/assets/drift-zoom/src/js/ZoomPane.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/assets/drift-zoom/src/js/util/dom.js ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/assets/svg-icons/arrow-up-s-fill.svg ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/assets/svg-icons/arrow-up-s-line.svg ***!
+  \**************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/assets/svg-icons/arrow-down-s-fill.svg ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/assets/svg-icons/arrow-down-s-line.svg ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/assets/svg-icons/arrow-left-s-fill.svg ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/assets/svg-icons/arrow-left-s-line.svg ***!
+  \****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/assets/drift-zoom/src/js/BoundingBox.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/assets/svg-icons/arrow-right-s-fill.svg ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./src/assets/svg-icons/arrow-right-s-line.svg ***!
+  \*****************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/vue-style-loader/lib/listToStyles.js ***!
+  \***********************************************************/
+
+/*!*************************************************************!*\
+  !*** ./src/assets/drift-zoom/src/js/util/throwIfMissing.js ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/vue-style-loader/lib/addStylesClient.js ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./src/assets/drift-zoom/src/js/injectBaseStylesheet.js ***!
+  \**************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./src/components/ProductZoomer.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+  \********************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./src/components/ProductZoomer.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************/
+
+/*!*************************************************************************************!*\
+  !*** ./src/components/ProductZoomer.vue?vue&type=template&id=033bd07e&scoped=true& ***!
+  \*************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./src/components/ProductZoomer.vue?vue&type=style&index=1&id=033bd07e&scoped=true&lang=css& ***!
+  \***************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--1!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ProductZoomer.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************/
+
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./src/assets/drift-zoom/src/css/drift-basic.css ***!
+  \****************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ProductZoomer.vue?vue&type=template&id=033bd07e&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ProductZoomer.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ProductZoomer.vue?vue&type=style&index=1&id=033bd07e&scoped=true&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ProductZoomer.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader!./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options!./src/components/ProductZoomer.vue?vue&type=style&index=1&id=033bd07e&scoped=true&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/

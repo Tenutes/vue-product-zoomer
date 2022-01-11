@@ -56,7 +56,6 @@ module.exports = {
       template: './src/assets/index.html',
       title: 'Vue Product Zoomer',
       appMountId: 'app',
-      filename: 'demo.html'
     }),
     new TerserPlugin({
       parallel: true,

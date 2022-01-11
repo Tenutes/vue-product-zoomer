@@ -1,0 +1,96 @@
+
+
+
+.scroller-at-top[data-v-512d1e1e] {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+.scroller-at-top .preview-box[data-v-512d1e1e] {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+.scroller-at-top .thumb-list[data-v-512d1e1e] {
+  display: grid;
+  align-items: center;
+  grid-column-gap: 0.2em;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  visibility: hidden;
+}
+.scroller-at-bottom[data-v-512d1e1e] {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+.scroller-at-bottom .preview-box[data-v-512d1e1e] {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.scroller-at-bottom .thumb-list[data-v-512d1e1e] {
+  display: grid;
+  align-items: center;
+  grid-column-gap: 0.2em;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  visibility: hidden;
+}
+.scroller-at-left[data-v-512d1e1e] {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr;
+}
+.scroller-at-left .preview-box[data-v-512d1e1e] {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.scroller-at-left .thumb-list[data-v-512d1e1e] {
+  display: grid;
+  grid-row-gap: 0.2em;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  visibility: hidden;
+  justify-items: center;
+}
+.scroller-at-right[data-v-512d1e1e] {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: 1fr;
+}
+.scroller-at-right .preview-box[data-v-512d1e1e] {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.scroller-at-right .thumb-list[data-v-512d1e1e] {
+  display: grid;
+  grid-row-gap: 0.2em;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  visibility: hidden;
+  justify-items: center;
+}
+.scroller-at-right .thumb-list .responsive-image[data-v-512d1e1e],
+.scroller-at-left .thumb-list .responsive-image[data-v-512d1e1e] {
+  width: auto;
+  height: 100%;
+}
+.scroller-at-top .thumb-list .responsive-image[data-v-512d1e1e],
+.scroller-at-bottom .thumb-list .responsive-image[data-v-512d1e1e] {
+  height: auto;
+  width: 100%;
+}
+.zoomer-control[data-v-512d1e1e] {
+  cursor: pointer;
+}
+.choosed-thumb[data-v-512d1e1e] {
+  border-radius: 0;
+}
+.pane-container[data-v-512d1e1e] {
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  pointer-events: none;
+}
+

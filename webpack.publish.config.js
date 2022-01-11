@@ -76,7 +76,7 @@ module.exports = {
       maxAsyncRequests: 5,
       maxInitialRequests: 3,
       automaticNameDelimiter: '~',
-      name: true,
+      name: false,
       cacheGroups: {
         vendorsDefault: {
           test: /[\\/]node_modules[\\/]/,

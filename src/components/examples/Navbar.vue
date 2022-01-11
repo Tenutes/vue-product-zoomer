@@ -15,7 +15,7 @@
       <a class="navbar-item" href="http://www.yoohooworld.com/#/">
         Document
       </a>
-       <div class="navbar-item has-dropdown is-hoverable">
+      <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           Demo List
         </a>
@@ -46,9 +46,7 @@
   </div>
 </nav>
 </template>
-<script>
-export default {
-    
-}
-</script>
 
+<script>
+export default {}
+</script>

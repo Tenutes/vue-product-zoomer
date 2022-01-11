@@ -3,26 +3,26 @@
     <div class="hero-body is-fullheight">
       <div class="container">
         <div class="columns is-centered is-vcentered">
-            <ProductZoomer :base-images="images" :base-zoomer-options="zoomerOptions"/>
+          <ProductZoomer :base-images="images" :base-zoomer-options="zoomerOptions"/>
           <div style="margin-left: 2em">
             <h1 class="title is-4 has-text-centered">
               <span itemprop="name">Scroller Bottom & Container Right</span>
             </h1>
-              <pre>
-<code class="javascript">
-  let zoomerOptions = {
-      zoomFactor: 3,
-      pane: "pane",
-      hoverDelay: 300,
-      namespace: "zoomer-bottom",
-      move_by_click: false,
-      scroll_items: 4,
-      choosed_thumb_border_color: "#dd2c00",
-      scroller_position: "bottom",
-      zoomer_pane_position: "right"
-  }
-</code>
-</pre>
+            <pre>
+              <code class="javascript">
+                let zoomerOptions = {
+                    zoomFactor: 3,
+                    pane: "pane",
+                    hoverDelay: 300,
+                    namespace: "zoomer-bottom",
+                    move_by_click: false,
+                    scroll_items: 4,
+                    choosed_thumb_border_color: "#dd2c00",
+                    scroller_position: "bottom",
+                    zoomer_pane_position: "right"
+                }
+              </code>
+            </pre>
           </div>
         </div>
       </div>
@@ -197,4 +197,3 @@ export default {
   }
 };
 </script>
-

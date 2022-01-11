@@ -1,9 +1,9 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const VueLoaderPlugin = require('vue-loader/lib/plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
-const CleanWebpackPlugin = require('clean-webpack-plugin')
-const isProduction = process.env.NODE_ENV !== 'production'
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { VueLoaderPlugin } = require('vue-loader');
+const isProduction = process.env.NODE_ENV !== 'production';
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   mode: isProduction ? 'production' : 'development',
@@ -28,89 +28,58 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.vue$/,
-        loader: 'vue-loader',
-        options: {
-          postcss: [require('precss')(), require('autoprefixer')()]
-        }
+        test: /\.(png|jpg|gif|svg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
       },
       {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: file => /node_modules/.test(file) && !/\.vue\.js/.test(file),
-        options: {
-          presets: ['@babel/preset-env'],
-          plugins: [
-            [
-              '@babel/plugin-proposal-class-properties',
-              {
-                loose: true
-              }
-            ]
-          ]
-        }
+        test: /\.vue$/,
+        use: 'vue-loader',
       },
       {
         test: /\.css$/,
         use: [
-          'vue-style-loader',
           {
-            loader: 'css-loader',
-            options: { importLoaders: 1 }
-          }
-        ]
-      },
-      {
-        test: /\.less$/,
-        use: ['vue-style-loader', 'css-loader', 'less-loader']
-      },
-      {
-        test: /\.scss$/,
-        use: ['vue-style-loader', 'css-loader', 'sass-loader']
-      },
-      {
-        test: /\.(png|jpg|gif|svg)$/,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              limit: 8192,
-            },
-          }
+            loader: MiniCssExtractPlugin.loader,
+          },
+          'css-loader',
         ],
       },
-    ]
+    ],
   },
   plugins: [
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
       template: './src/assets/index.html',
       title: 'Vue Product Zoomer',
-      appMountId: 'app'
+      appMountId: 'app',
+      filename: 'demo.html'
     }),
-    new CleanWebpackPlugin(),
-    new UglifyJsPlugin({
-      uglifyOptions: {
-        compress: {
-          warnings: false
-        }
+    new TerserPlugin({
+      parallel: true,
+      terserOptions: {
+        ecma: 6,
       },
-      sourceMap: isProduction ? false : true,
-      parallel: true
+    }),
+    new MiniCssExtractPlugin({
+      filename: "[name].css"
     })
   ],
   optimization: {
     splitChunks: {
       chunks: 'all',
-      minSize: 30000,
-      maxSize: 0,
+      minSize: 0,
+      maxSize: 30000,
       minChunks: 1,
       maxAsyncRequests: 5,
       maxInitialRequests: 3,
       automaticNameDelimiter: '~',
       name: true,
       cacheGroups: {
-        vendors: {
+        vendorsDefault: {
           test: /[\\/]node_modules[\\/]/,
           priority: -10
         },

@@ -3,25 +3,25 @@
     <div class="hero-body is-fullheight">
       <div class="container">
         <div class="columns is-centered is-vcentered">
-              <div style="margin-right: 2em">
-                <h1 class="title is-4 has-text-centered">
-                  <span itemprop="name">Inside Round & Pane Bottom</span>
-                </h1>
-                <pre>
-<code class="javascript">
-  let zoomerOptions = {
-      "zoomFactor": 4,
-      "pane": "container-round",
-      "hoverDelay": 300,
-      "namespace": "inline-round-zoomer",
-      "move_by_click":true,
-      "scroll_items": 5,
-      "choosed_thumb_border_color": "#bbdefb"
-  }
-</code>
-</pre>
-              </div>
-              <ProductZoomer :base-images="images" :base-zoomer-options="zoomerOptions"/>
+          <div style="margin-right: 2em">
+            <h1 class="title is-4 has-text-centered">
+              <span itemprop="name">Inside Round & Pane Bottom</span>
+            </h1>
+            <pre>
+              <code class="javascript">
+                let zoomerOptions = {
+                    "zoomFactor": 4,
+                    "pane": "container-round",
+                    "hoverDelay": 300,
+                    "namespace": "inline-round-zoomer",
+                    "move_by_click":true,
+                    "scroll_items": 5,
+                    "choosed_thumb_border_color": "#bbdefb"
+                }
+              </code>
+            </pre>
+          </div>
+          <ProductZoomer :base-images="images" :base-zoomer-options="zoomerOptions"/>
         </div>
       </div>
     </div>
@@ -194,4 +194,3 @@ export default {
   }
 };
 </script>
-

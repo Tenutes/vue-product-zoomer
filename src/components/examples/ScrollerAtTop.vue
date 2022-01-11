@@ -1,41 +1,11 @@
-<template>
-  <section class="hero is-fullheight" id="scroll-top">
-    <div class="hero-body is-fullheight">
-      <div class="container">
-        <div class="columns is-centered is-vcentered">
-          <div class="column is-narrow">
-            <h1 class="title is-4 has-text-centered">
-              <span itemprop="name">Scroller Top & Pane Left</span>
-            </h1>
-            <div class="has-text-left-tablet">
-              <pre>
-<code class="javascript">
-  let zoomerOptions = {
-        zoomFactor: 3,
-        pane: "pane",
-        hoverDelay: 300,
-        namespace: "zoomer-top",
-        move_by_click: false,
-        scroll_items: 7,
-        choosed_thumb_border_color: "#dd2c00",
-        scroller_position: "top",
-        zoomer_pane_position: "left"
-      }
-</code>
-</pre>
-            </div>
-          </div>
-          <div class="column is-narrow">
-            <ProductZoomer :base-images="images" :base-zoomer-options="zoomerOptions"/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</template>
 <script>
+import ProductZoomer from "../ProductZoomer";
+
 export default {
   name: "app",
+  components: {
+    ProductZoomer,
+  },
   data() {
     return {
       images: {
@@ -197,3 +167,38 @@ export default {
 };
 </script>
 
+<template>
+  <section class="hero is-fullheight" id="scroll-top">
+    <div class="hero-body is-fullheight">
+      <div class="container">
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-narrow">
+            <h1 class="title is-4 has-text-centered">
+              <span itemprop="name">Scroller Top & Pane Left</span>
+            </h1>
+            <div class="has-text-left-tablet">
+              <pre>
+                <code class="javascript">
+                  let zoomerOptions = {
+                        zoomFactor: 3,
+                        pane: "pane",
+                        hoverDelay: 300,
+                        namespace: "zoomer-top",
+                        move_by_click: false,
+                        scroll_items: 7,
+                        choosed_thumb_border_color: "#dd2c00",
+                        scroller_position: "top",
+                        zoomer_pane_position: "left"
+                      }
+                </code>
+              </pre>
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <ProductZoomer :base-images="images" :base-zoomer-options="zoomerOptions"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>

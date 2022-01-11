@@ -1,22 +1,3 @@
-<template>
-  <div class="hero">
-    <header class="hero-head">
-      <Navbar/>
-    </header>
-    <ScrollerAtTop />
-    <hr class="hr" />
-    <ScrollerAtLeft />
-    <hr class="hr" />
-    <ScrollerAtBottom />
-    <hr class="hr" />
-    <ScrollerAtRight />
-    <hr class="hr" />
-    <InsideRound />
-    <hr class="hr" />
-    <InsideContainer />
-  </div>
-</template>
-
 <script>
 import Navbar from "./components/examples/Navbar";
 import ScrollerAtBottom from "./components/examples/ScrollerAtBottom";
@@ -38,8 +19,28 @@ export default {
   }
 };
 </script>
+
+<template>
+<div class="hero">
+  <header class="hero-head">
+    <Navbar/>
+  </header>
+  <ScrollerAtTop />
+  <hr class="hr" />
+  <ScrollerAtLeft />
+  <hr class="hr" />
+  <ScrollerAtBottom />
+  <hr class="hr" />
+  <ScrollerAtRight />
+  <hr class="hr" />
+  <InsideRound />
+  <hr class="hr" />
+  <InsideContainer />
+</div>
+</template>
+
 <style>
 pre {
-  padding: 0px !important;
+  padding: 0!important;
 }
 </style>

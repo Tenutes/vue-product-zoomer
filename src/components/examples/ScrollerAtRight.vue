@@ -8,20 +8,20 @@
               <span itemprop="name">Scroller Right & Pane Left</span>
             </h1>
             <pre>
-<code class="javascript">
-  let zoomerOptions = {
-      zoomFactor: 3,
-      pane: "pane",
-      hoverDelay: 300,
-      namespace: "zoomer-right",
-      move_by_click: false,
-      scroll_items: 4,
-      choosed_thumb_border_color: "#dd2c00",
-      scroller_position: "right",
-      zoomer_pane_position: "left"
-  }
-</code>
-</pre>
+              <code class="javascript">
+                let zoomerOptions = {
+                    zoomFactor: 3,
+                    pane: "pane",
+                    hoverDelay: 300,
+                    namespace: "zoomer-right",
+                    move_by_click: false,
+                    scroll_items: 4,
+                    choosed_thumb_border_color: "#dd2c00",
+                    scroller_position: "right",
+                    zoomer_pane_position: "left"
+                }
+              </code>
+            </pre>
           </div>
           <ProductZoomer :base-images="images" :base-zoomer-options="zoomerOptions"/>
         </div>
@@ -196,4 +196,3 @@ export default {
   }
 };
 </script>
-

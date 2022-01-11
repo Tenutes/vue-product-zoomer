@@ -23,7 +23,11 @@ module.exports = {
   resolve: {
     modules: ['node_modules'],
     extensions: ['.js', '.json', '.jsx', '.vue'],
-    plugins: []
+    plugins: [],
+    symlinks: false,
+    alias: {
+      vue: path.resolve(`./node_modules/vue`)
+    }
   },
   module: {
     rules: [

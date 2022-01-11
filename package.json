@@ -1,6 +1,6 @@
 {
   "name": "vue-product-zoomer-next",
-  "version": "4.0.0",
+  "version": "4.0.2",
   "main": "dist/assets/js/app.bundle.js",
   "description": "Vue 3 Package for responsive Zoom Product Images.",
   "author": "mironov19960212@yandex.ru",
@@ -17,7 +17,7 @@
     "@vue/compiler-sfc": "3.2.26",
     "bulma": "0.7.4",
     "docsify-cli": "4.3.0",
-    "file-loader": "^6.2.0",
+    "file-loader": "6.2.0",
     "mini-css-extract-plugin": "2.4.6",
     "url-loader": "4.1.1",
     "vue": "3.2.26",

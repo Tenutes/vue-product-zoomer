@@ -1,5 +1,5 @@
 # Welcome to Vue Product Zoomer 👋
-![Version](https://img.shields.io/badge/version-4.0.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-4.0.2-blue.svg?cacheSeconds=2592000)
 [![npm](https://img.shields.io/npm/dt/vue-product-zoomer.svg)](https://www.npmjs.com/package/vue-product-zoomer)
 [![GitHub issues](https://img.shields.io/github/issues/akulubala/vue-product-zoomer.svg)](https://github.com/akulubala/vue-product-zoomer/issues)
 [![GitHub license](https://img.shields.io/github/license/akulubala/vue-product-zoomer.svg)](https://github.com/akulubala/vue-product-zoomer/blob/master/LICENSE)
@@ -20,7 +20,8 @@ npm install vue-product-zoomer
 ## Usage
 
 ```sh
-import ProductZoomer from 'vue-product-zoomer'
+import ProductZoomer from 'vue-product-zoomer';
+or
 app.use(ProductZoomer)
 
 <ProductZoomer
@@ -78,12 +79,12 @@ app.use(ProductZoomer)
 
 ## Author
 
-👤 **Raymond Cheng**
+👤 **Mironov Roman**
 
-* Twitter: [@akulubala](https://twitter.com/akulubala)
-* Github: [@akulubala](https://github.com/akulubala)
+* Github: [@Tenutes](https://github.com/Tenutes)
 
 ## 🤝 Contributing
+Forked from [here](https://github.com/akulubala/vue-product-zoomer)
 
 Contributions, issues and feature requests are welcome!
 

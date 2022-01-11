@@ -1,6 +1,6 @@
 {
   "name": "vue-product-zoomer-next",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "main": "dist/assets/js/app.bundle.js",
   "description": "Vue 3 Package for responsive Zoom Product Images.",
   "author": "mironov19960212@yandex.ru",

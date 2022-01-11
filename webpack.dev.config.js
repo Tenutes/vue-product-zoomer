@@ -44,6 +44,22 @@ module.exports = {
         ],
       },
       {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: file => /node_modules/.test(file) && !/\.vue\.js/.test(file),
+        options: {
+          presets: ['@babel/preset-env'],
+          plugins: [
+            [
+              '@babel/plugin-proposal-class-properties',
+              {
+                loose: true
+              }
+            ]
+          ]
+        }
+      },
+      {
         test: /\.vue$/,
         use: 'vue-loader',
       },

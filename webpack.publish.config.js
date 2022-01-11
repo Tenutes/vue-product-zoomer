@@ -16,7 +16,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'assets/js/[name].bundle.js',
+    filename: 'assets/js/app.bundle.js',
     library: 'ProductZoomer',
     libraryTarget: 'umd'
   },
@@ -34,6 +34,22 @@ module.exports = {
             loader: 'file-loader',
           },
         ],
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: file => /node_modules/.test(file) && !/\.vue\.js/.test(file),
+        options: {
+          presets: ['@babel/preset-env'],
+          plugins: [
+            [
+              '@babel/plugin-proposal-class-properties',
+              {
+                loose: true
+              }
+            ]
+          ]
+        }
       },
       {
         test: /\.vue$/,
@@ -69,14 +85,13 @@ module.exports = {
   ],
   optimization: {
     splitChunks: {
-      chunks: 'all',
+      chunks: 'async',
       minSize: 0,
       maxSize: 30000,
       minChunks: 1,
       maxAsyncRequests: 5,
       maxInitialRequests: 3,
       automaticNameDelimiter: '~',
-      name: false,
       cacheGroups: {
         vendorsDefault: {
           test: /[\\/]node_modules[\\/]/,

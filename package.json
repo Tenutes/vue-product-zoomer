@@ -1,6 +1,6 @@
 {
   "name": "vue-product-zoomer-next",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "main": "dist/assets/js/app.bundle.js",
   "description": "Vue 3 Package for responsive Zoom Product Images.",
   "author": "mironov19960212@yandex.ru",
@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "NODE_ENV=development node_modules/.bin/webpack-dev-server --open --config webpack.dev.config.js",
     "docs": "NODE_ENV=development node_modules/.bin/webpack --config webpack.docs.config.js",
-    "publish": "NODE_ENV=production node_modules/.bin/webpack --config webpack.publish.config.js"
+    "prepublish": "NODE_ENV=production node_modules/.bin/webpack --config webpack.publish.config.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.36",
